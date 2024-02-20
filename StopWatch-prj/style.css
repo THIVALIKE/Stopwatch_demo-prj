@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.container{
+    
+    width: 700px;
+    margin: 30px auto;
+    display: grid;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+p span{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    color:red;
+}
+
+button{
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: italic;
+    color:whitesmoke ;
+    background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,121,27,1) 66%, rgba(0,241,255,0.044596912521440824) 100%);
+    margin: 10px;
+    display: grid;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+}
